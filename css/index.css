@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(137, 148, 139, 0.212);
+
+}
+
+header {
+  background-color:  rgba(41, 56, 48, 0.521);
+  padding: 15px;
+  height: 95px;
+}
+
+header li {
+  display: inline;
+  padding-left: 45px;
+  float: right;
+  font-size: 40px;
+  color: #01080e;
+}
+
+header li a {
+  color: #b7bfce;
+  text-decoration: none;
+  padding: 13px;
+  transition: .3s ease;
+}
+
+header li a:hover {
+  color: aqua;
+}
+
+.h1 {
+  display: flex;
+  float: left;
+}
+
+.img1 {
+  display: flex;
+  float: left;
+  width: 50%;
+  height: 53.5%;
+  position: absolute;
+}
+
+.box1 {
+  height: 200px;
+  width: 100%;
+  border: solid aqua;
+  display: flex;
+  position: relative;
+  font-size: 25px;
+  margin-top: 2%;
+  
+  
+}
+
+.box2 {
+  height: 200px;
+  width: 100%;
+  border: solid aqua;
+  display: flex;
+  position: relative;
+  font-size: 25px;
+
+}
+
+.box3 {
+  height: 200px;
+  width: 100%;
+  border: solid aqua;
+  display: flex;
+  position: relative;
+  font-size: 25px;
+
+}
+
+.box4 {
+  height: 200px;
+  width: 100%;
+  border: solid aqua;
+  display: flex;
+  position: relative;
+  font-size: 25px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.h1 {
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  padding-left: 50px;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  height: 50%;
+  border: solid grey;
+  background-color:  rgba(41, 56, 48, 0.521);
+}
+
+.contact {
+  display: flex;
+  font-size: 20px;
+  float: left;
+  margin-top: 75px;
+}
+
+.github {
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  margin-right: 500px;
+}
+
+.email {
+  display: flex;
+  float: right;
+  padding-bottom: 75px;
+  margin-right: 40px;
+}
+
+
+p {
+  font-size: 25px;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+
+.projects-h1 {
+  text-align: center;
+  margin-top: 15%;
+}
+.link{
+  margin-right: 450px;
+  font-size: 25px;
+ 
+
+
+}
