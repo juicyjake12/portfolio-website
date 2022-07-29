@@ -16,8 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: rgba(137, 148, 139, 0.212);
-
+  background-color: rgba(36, 100, 109, 0.212);
 }
 
 header {
@@ -61,48 +60,51 @@ header li a:hover {
 .box1 {
   height: 200px;
   width: 100%;
-  border: solid aqua;
+  border: groove rgba(23, 117, 161, 0.637);
   display: flex;
   position: relative;
   font-size: 25px;
   margin-top: 2%;
-  
-  
-}
+  border-style: outset;
+  border-width: 8px;
+ }
 
 .box2 {
   height: 200px;
   width: 100%;
-  border: solid aqua;
+  border: solid rgba(23, 117, 161, 0.637);
   display: flex;
   position: relative;
   font-size: 25px;
-
+  border-style: outset;
+  border-width: 8px;
 }
 
 .box3 {
   height: 200px;
   width: 100%;
-  border: solid aqua;
+  border: solid rgba(23, 117, 161, 0.637);
   display: flex;
   position: relative;
   font-size: 25px;
-
+  border-style: outset;
+  border-width: 8px;
 }
 
 .box4 {
   height: 200px;
   width: 100%;
-  border: solid aqua;
+  border: solid rgba(23, 117, 161, 0.637);
   display: flex;
   position: relative;
   font-size: 25px;
+  border-style: outset;
+  border-width: 8px;
 }
 
 #projects {
   display: flex;
   flex-direction: column;
-
 }
 
 .h1 {
@@ -143,7 +145,6 @@ footer {
   margin-right: 40px;
 }
 
-
 p {
   font-size: 25px;
   margin-left: 4%;
@@ -153,11 +154,45 @@ p {
 .projects-h1 {
   text-align: center;
   margin-top: 15%;
+ 
 }
 .link{
   margin-right: 450px;
   font-size: 25px;
- 
-
-
+}
+.box1 h1{
+ display: flex;
+ float: left;
+ margin-right: 50px;
+}
+.box2 h1{
+  display: flex;
+  float: left;
+  margin-right: 50px;
+}
+.box3 h1{
+  display: flex;
+  float: left;
+  margin-right: 50px;
+ }
+.box4 h1{
+  display: flex;
+ float: left;
+ margin-right: 50px;
+}
+.box1 img{
+  width:1634px;
+  height: 185px;
+}
+.box2 img{
+  width: 1634px;
+  height: 185px;
+}
+.box3 img{
+  width: 1634px;
+  height: 184px;
+}
+.box4 img{
+  width: 1634px;
+  height: 184px;
 }
